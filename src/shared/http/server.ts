@@ -28,7 +28,7 @@ app.use(
 
     return response.status(500).json({
       title: 'Error',
-      message: 'Internal error server',
+      message: error.message,
       statusCode: 500,
     });
   },

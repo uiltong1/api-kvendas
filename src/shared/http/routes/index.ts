@@ -11,6 +11,4 @@ routes.use('/users', usersRouter);
 routes.use('/sessions', sessionsRouter);
 routes.use('/password', passwordRouter);
 
-console.log(routes);
-
 export default routes;
